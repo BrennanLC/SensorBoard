@@ -1642,6 +1642,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
+</package>
 </packages>
 <symbols>
 <symbol name="5V">
@@ -1654,6 +1659,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="CREATIVE_COMMONS">
+<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="0" y="0" size="1.778" layer="95">Design by:</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1676,6 +1686,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CREATIVE_COMMONS" prefix="CC_TEXT">
+<description>Creative Commons License summary</description>
+<gates>
+<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CREATIVE_COMMONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1776,6 +1799,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF3" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF4" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="CC_TEXT1" library="SparkFun-Aesthetics" deviceset="CREATIVE_COMMONS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1783,6 +1807,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <text x="68.58" y="-101.6" size="2.54" layer="91">Line-Sensor Board</text>
 <text x="127" y="-105.41" size="1.778" layer="91">1 of 1</text>
 <text x="127" y="-98.298" size="1.778" layer="91">0</text>
+<text x="-22.86" y="-104.14" size="1.778" layer="91">B. Carrizales</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
@@ -1812,6 +1837,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <instance part="STANDOFF2" gate="G$1" x="-119.38" y="-71.12"/>
 <instance part="STANDOFF3" gate="G$1" x="-119.38" y="-60.96"/>
 <instance part="STANDOFF4" gate="G$1" x="-119.38" y="-55.88"/>
+<instance part="CC_TEXT1" gate="G$1" x="-35.56" y="-104.14"/>
 </instances>
 <busses>
 </busses>
