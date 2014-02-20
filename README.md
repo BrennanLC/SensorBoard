@@ -8,8 +8,11 @@ Design has not yet been verified. Build at your own risk!
 Files:
 
 SEN00001.pdf - Copy of board schematic in PDF format
-SEN00001.sch - Board schematic eagle file 
+
+SEN00001.sch - Board schematic eagle file
+
 SEN00001.brd - Board layout eagle file
+
 SEN00001Board.pdf - Board layout in PDF format
 
 
